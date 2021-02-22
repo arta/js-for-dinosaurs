@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arta/js-for-dinosaurs/issues"
   },
-  "homepage": "https://github.com/arta/js-for-dinosaurs#readme"
+  "homepage": "https://github.com/arta/js-for-dinosaurs#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }
