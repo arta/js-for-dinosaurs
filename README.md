@@ -81,11 +81,7 @@ Instead of (in addition to) the @ `file:///.../.../js-for-dinosaurs/index.html`
 
 ## Bug & fix:
 Apparently, as of Feb-22-2021, `webpack`, `webpack-cli` &
-`webpack-dev-server` have a longstanding bug:
-
-https://github.com/mzgoddard/jest-webpack/issues/27
-
-And a hack fix:
+`webpack-dev-server` have a longstanding bug & a hack fix:
 
 https://github.com/mzgoddard/jest-webpack/issues/27#issuecomment-707063085
 
@@ -99,4 +95,4 @@ for:
 
 `js-for-dinosaurs % npm run server`
 
-to run (@ localhost:8080)
+to run
