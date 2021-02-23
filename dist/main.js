@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"Hello from JavaScript!\");\nconsole.log(moment().startOf('day').fromNow());\n// moment is a global variable declared & initialized in moment.js, line 10\n\n\n//# sourceURL=webpack://js-for-dinosaurs/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n// The end point is actually ./module_nodes/moment/min/moment.min.js,\n// but node.js knows the location of each npm module\n\nconsole.log(\"Hello from JavaScript!\");\nconsole.log(moment().startOf('day').fromNow());\n// moment is a global variable declared & initialized in moment.js, line 10\n\n\n//# sourceURL=webpack://js-for-dinosaurs/./index.js?");
 
 /***/ }),
 
