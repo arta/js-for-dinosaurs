@@ -1,3 +1,6 @@
+// Strip moment locales:
+const MomentLocalesPlugin = require('moment-locales-webpack-plugin');
+
 module.exports = {
   mode: 'development',
   entry: './index.js',
@@ -18,5 +21,10 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    // Strip moment locales except “en”
+    // (“en” is built into Moment and can’t be removed)
+    new MomentLocalesPlugin(),
+  ]
 };
