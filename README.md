@@ -36,8 +36,7 @@ Can now link just that single build file from `index.html` with
 .. all should work just fine @ `file:///.../.../js-for-dinosaurs/index.html`
 
 (\**) can shorten with configurations in `js-for-dinosaurs/webpack.config.js`
-and</br>
-run a shorter (free of the config flags):</br>
+and run a shorter (free of the config flags):</br>
 `js-for-dinosaurs % ./node_modules/.bin/webpack`
 
 Can install, configure (in `webpack.config.js`), and use Babel (JS compiler):
