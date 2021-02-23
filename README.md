@@ -89,7 +89,7 @@ And a hack fix:
 
 https://github.com/mzgoddard/jest-webpack/issues/27#issuecomment-707063085
 
-Essentiall, as of Feb-22-2021, must downgrade devDependencies in
+Essentially, as of Feb-22-2021, must downgrade devDependencies in
 `package.json`:</br>
 `"webpack": "4.32.2",`</br>
 `"webpack-cli": "^3.3.12",`</br>
