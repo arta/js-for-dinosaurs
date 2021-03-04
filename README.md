@@ -69,7 +69,7 @@ server setup:</br>
 
 Must add npm's server script to `package.json`:</br>
 `..`</br>
-`"server": "webpack-dev-server --open"`</br>
+`"server": "webpack serve --open"`</br>
 `..`</br>
 
 And, finally (just like in Rails development):</br>
@@ -77,21 +77,3 @@ And, finally (just like in Rails development):</br>
 
 To access our js-for-dinosaurs app @ `localhost:8080`</br>
 Instead of (in addition to) the @ `file:///.../.../js-for-dinosaurs/index.html`
-
-## Bug & fix:
-Apparently, as of Feb-22-2021, `webpack`, `webpack-cli` &
-`webpack-dev-server` have a longstanding bug & a hack fix:
-
-https://github.com/mzgoddard/jest-webpack/issues/27#issuecomment-707063085
-
-Essentially, as of Feb-22-2021, must downgrade devDependencies in
-`package.json`:</br>
-`"webpack": "4.32.2",`</br>
-`"webpack-cli": "^3.3.12",`</br>
-`"webpack-dev-server": "^3.11.2"`</br>
-
-for:
-
-`js-for-dinosaurs % npm run server`
-
-to run

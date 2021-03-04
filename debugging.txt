@@ -1,3 +1,9 @@
+3-4-21:
+Re the isse below (2-22-21):
+The correct fix is an updated server script value in package.json:
+"server": "webpack serve --open" (<= replaces old: "webpack-dev-server --open">)
+https://stackoverflow.com/a/64205610/247626
+
 2-22-21:
 Specific webpack versions in devDependencies required for the server to work:
 https: //github.com/mzgoddard/jest-webpack/issues/27#issuecomment-707063085
